@@ -2,9 +2,12 @@ from secrets_util import GMAIL_CREDS
 import smtplib
 
 def send_email(TO):
+    print("sending email to " + TO)
+    verification_url = "https://www.google.com"
+
     SUBJECT = '[HappyMakiGames] Verify your email address to get started with your game'
     TEXT = 'Welcome to Happy Maki Games! To verify your email address, simply click the link below:\n\n' \
-           'https://www.google.com\n\n' \
+           f'{verification_url}\n\n' \
            'The link expires after 30 minutes. If the link does not work, ' \
            'please copy and paste the URL into a browser. For inquiries, please contact HappyMakiGames@gmail.com' \
            'Thanks!\n Happy Maki Games'

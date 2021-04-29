@@ -9,4 +9,4 @@ def load_gmail_creds():
 
 
 GMAIL_CREDS = load_gmail_creds()
-print(GMAIL_CREDS)
+print("Loading Creds for gmail")
