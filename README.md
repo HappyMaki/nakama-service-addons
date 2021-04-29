@@ -1,11 +1,14 @@
-# nakama-service-addons
+# Web Service Addons for Nakama
 
+## Description
 This repository houses additional services for a nakama game server.
 
+## Features
 It includes the following:
-	1. Outbound Email Service
-	2.Email Verification Service
+	- Outbound Email Service
+	- Email Verification Service
 
+## Setup 
 To configure this service you must update the following files:
-	1. secrets/gmail_creds.secret should contain your gmail credentials
-	2. Disable insecure login through your gmail settings at https://myaccount.google.com/lesssecureapps
+	- secrets/gmail_creds.secret should contain your gmail credentials
+	- Disable insecure login through your gmail settings at https://myaccount.google.com/lesssecureapps
